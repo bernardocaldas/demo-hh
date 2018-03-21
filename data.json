@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "id": "n0",
+      "label": "A node",
+      "x": 0,
+      "y": 0,
+      "size": 3,
+      "metadata": {
+        "category": "Apple"
+      },
+      "final_color": "#FFFFFF"
+    },
+    {
+      "id": "n1",
+      "label": "Another node",
+      "x": 0,
+      "y": 0,
+      "size": 2,
+      "metadata": {
+        "category": "Peach"
+      },
+      "final_color": "#FFFFFF"
+    },
+    {
+      "id": "n2",
+      "label": "And a last one",
+      "x": 0,
+      "y": 0,
+      "size": 1,
+      "metadata": {
+        "category": "Peach"
+      },
+      "final_color": "#FFFFFF"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "n0",
+      "target": "n1"
+    },
+    {
+      "id": "e1",
+      "source": "n1",
+      "target": "n2"
+    },
+    {
+      "id": "e2",
+      "source": "n2",
+      "target": "n0"
+    }
+  ]
+}
